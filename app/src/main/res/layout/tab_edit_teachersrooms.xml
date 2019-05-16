@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    tools:context="com.akhilsukh01.mvtimes.TabEditTeachersRooms">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titlePeriod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Teacher"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorAccent"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/titleFree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:text="Room"
+                android:textColor="?attr/colorAccent"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher1"
+                style="@style/ClassesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:layout_weight="2"
+                android:hint="1st Period Teacher"
+                android:textColor="?attr/colorPrimaryDark"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room1"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 1"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher2"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="2nd Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room2"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 2"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher3"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="3rd Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room3"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 3"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher4"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="4th Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room4"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 4"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher5"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="5th Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room5"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 5"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher6"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="6th Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room6"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 6"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher7"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="7th Period Teacher"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/room7"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Room 7"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textHelper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="**Leave Line Blank If Period Is Free**"
+        android:textAppearance="@style/TextAppearance.Design.HelperText"
+        android:textColor="@color/tipColor"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonResetTeachers"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RESET"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="0dp"
+            android:background="?attr/rectangleButton"
+            android:src="?attr/settingsIcon"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/buttonSaveTeachers"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="0dp"
+            android:background="?attr/rectangleButton"
+            android:src="?attr/settingsIcon"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

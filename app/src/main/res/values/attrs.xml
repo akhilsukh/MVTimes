@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="AppThemeChanger">
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorPrimaryDark" format="color"/>
+        <attr name="colorAccent" format="color"/>
+        <attr name="colorBackground" format="color"/>
+        <attr name="textColorPrimary" format="color"/>
+        <attr name="rectangleButton" format="integer"/>
+        <attr name="settingsIcon" format="integer"/>
+
+        <attr name="mon" format="integer"/>
+        <attr name="tue" format="integer"/>
+        <attr name="wed" format="integer"/>
+        <attr name="thur" format="integer"/>
+        <attr name="rall" format="integer"/>
+    </declare-styleable>
+
+</resources>

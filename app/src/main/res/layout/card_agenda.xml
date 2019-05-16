@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:padding="12dp"
+        android:background="?attr/colorAccent"
+        app:cardCornerRadius="6dp">
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:background="?attr/colorAccent"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:id="@+id/tTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingTop="4dp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="19dp" />
+
+        <TextView
+        android:id="@+id/tNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:gravity="left"
+        android:paddingVertical="3dp"
+        android:text="Note"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="14dp" />
+        </LinearLayout>
+
+        </ScrollView>
+
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

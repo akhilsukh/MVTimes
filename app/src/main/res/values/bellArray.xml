@@ -1,0 +1,89 @@
+<resources>
+
+    //all these are end times minus 1 minute because
+    <integer-array name="MonArray">
+        //period 1 starts in
+        <item>519</item>
+        //period 1 ends in
+        <item>564</item>
+        //period 2 ends in
+        <item>614</item>
+        //period 3 ends in
+        <item>669</item>
+        //brunch ends in
+        <item>684</item>
+        //period 4 ends in
+        <item>734</item>
+        //period 5 ends in
+        <item>784</item>
+        //lunch ends in
+        <item>824</item>
+        //period 6 ends in
+        <item>874</item>
+        //period 7 ends in
+        <item>924</item>
+    </integer-array>
+
+
+    <integer-array name="TueArray">
+        //period 1 starts in
+        <item>479</item>
+        //period 1 ends in
+        <item>524</item>
+        //period 2 ends in
+        <item>574</item>
+        //tutorial ends in
+        <item>614</item>
+        //period 3 ends in
+        <item>669</item>
+        //brunch ends in
+        <item>684</item>
+        //period 4 ends in
+        <item>734</item>
+        //period 5 ends in
+        <item>784</item>
+        //lunch ends in
+        <item>824</item>
+        //period 6 ends in
+        <item>874</item>
+        //period 7 ends in
+        <item>924</item>
+    </integer-array>
+
+
+    <integer-array name="WedArray">
+        //period 4 starts in
+        <item>534</item>
+        //period 4 ends in
+        <item>629</item>
+        //tutorial ends in
+        <item>674</item>
+        //brunch ends in
+        <item>689</item>
+        //period 5 ends in
+        <item>784</item>
+        //lunch ends in
+        <item>824</item>
+        //period 6 ends in
+        <item>919</item>
+    </integer-array>
+
+
+    <integer-array name="ThurArray">
+        //period 1 starts in
+        <item>479</item>
+        //period 1 ends in
+        <item>569</item>
+        //period 2 ends in
+        <item>659</item>
+        //brunch ends in
+        <item>684</item>
+        //period 3 ends in
+        <item>784</item>
+        //lunch ends in
+        <item>824</item>
+        //period 7 ends in
+        <item>919</item>
+    </integer-array>
+
+</resources>

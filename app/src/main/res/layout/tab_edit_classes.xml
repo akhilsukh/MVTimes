@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    tools:context="com.akhilsukh01.mvtimes.TabEditClasses">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titlePeriod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Period"
+                android:textColor="?attr/colorAccent"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/titleFree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textColor="?attr/colorAccent"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/teacher1"
+                style="@style/ClassesEditText"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 1"
+                android:layout_marginRight="24dp"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free1"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/teacher2"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 2"
+                android:layout_marginRight="24dp"
+                style="@style/ClassesEditText"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free2"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/teacher3"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 3"
+                style="@style/ClassesEditText"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free3"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/teacher4"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 4"
+                style="@style/ClassesEditText"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free4"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/teacher5"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 5"
+                style="@style/ClassesEditText"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free5"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher6"
+                style="@style/ClassesEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 6"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free6"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/teacher7"
+                style="@style/ClassesEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:textColor="?attr/colorPrimaryDark"
+                android:hint="Period 7"
+                app:met_baseColor="?attr/textColorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="?attr/colorAccent" />
+
+            <Switch
+                android:id="@+id/free7"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textHelper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="**Leave Line Blank If Period Is Free**"
+        android:textAppearance="@style/TextAppearance.Design.HelperText"
+        android:textColor="@color/tipColor"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonResetTeachers"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RESET"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="0dp"
+            android:background="?attr/rectangleButton"
+            android:src="?attr/settingsIcon"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/buttonSaveTeachers"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="?attr/rectangleButton"
+            android:src="?attr/settingsIcon"
+            android:text="SAVE"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

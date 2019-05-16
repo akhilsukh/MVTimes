@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883733917721",
+    "firebase_url": "https://mvtimes-45ac3.firebaseio.com",
+    "project_id": "mvtimes-45ac3",
+    "storage_bucket": "mvtimes-45ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883733917721:android:71d288ee2175871c",
+        "android_client_info": {
+          "package_name": "com.akhilsukh01.mvtimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883733917721-hcrg209da98e1a5e0vkr81fma7f4ddt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akhilsukh01.mvtimes",
+            "certificate_hash": "bb393809a2d96b4f7780fe758ac569b088941f5a"
+          }
+        },
+        {
+          "client_id": "883733917721-e6pb6mfmv47kdhgc6c945mpmgtmc29lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLP1MNazwnONdhKcjaVYNs8G7SV0zcWmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883733917721-e6pb6mfmv47kdhgc6c945mpmgtmc29lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

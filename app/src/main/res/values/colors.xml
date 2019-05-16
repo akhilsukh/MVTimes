@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="colorPrimary2">#212121</color>
+    <color name="colorPrimaryDark2">#212129</color>
+    <color name="colorAccent2">#47AD82</color>
+
+    <color name="tipColor">#737373</color>
+
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorBackground2">#212129</color>
+
+    <color name="textDark">#FFFFFF</color>
+    <color name="textLight">#212121</color>
+
+    <color name="trans">#00000000</color>
+    <!--<color name="colorPrimaryold">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDarkold">#303F9F</color>-->
+    <!--<color name="colorBack">#c3d2eb</color>-->
+    <!--<color name="color1">#337AB7</color>-->
+    <!--<color name="color2">#292D48</color>-->
+    <!--<color name="color3">#9b9da1</color>-->
+    <!--<color name="color4">#98a8ba</color>-->
+    <!--<color name="background">#EEEEEE</color>-->
+    <!--<color name="backgroundcard">#EEEEEE</color>-->
+    <!--<color name="cBlack">#000000</color>-->
+
+    <!--<color name="colorPrimary2">#125688</color>-->
+    <!--<color name="colorPrimaryDark2">#fafafa</color>-->
+    <!--<color name="textColorPrimary">#FFFFFF</color>-->
+    <!--<color name="windowBackground">#FFFFFF</color>-->
+    <!--<color name="navigationBarColor">#f9f9f9</color>-->
+    <!--<color name="colorAccent2">#e0e0e0</color>-->
+
+    <!--<color name="backgroundProgressBarColor">#c873f4</color>-->
+    <!--<color name="progressBarColor">#c873f4</color>-->
+
+</resources>

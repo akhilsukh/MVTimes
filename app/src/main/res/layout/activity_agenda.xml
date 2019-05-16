@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".AgendaActivity">
+
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        app:colorMiddleText="?attr/colorAccent"
+        app:colorBottomText="?attr/colorAccent"
+        app:textColorNormal="?attr/colorAccent"
+        app:textColorSelected="?attr/colorAccent"
+        app:sizeBottomText="14sp"
+        app:sizeMiddleText="20sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_agenda"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" >
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/card_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_marginRight="12dp"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:padding="12dp"-->
+            <!--android:background="?attr/colorAccent"-->
+            <!--app:cardCornerRadius="6dp">-->
+
+            <!--<ScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="14dp"-->
+                <!--android:background="?attr/colorAccent"-->
+                <!--android:orientation="vertical">-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tTitle"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="top"-->
+                    <!--android:paddingTop="4dp"-->
+                    <!--android:text="Title"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="?attr/textColorPrimary"-->
+                    <!--android:textSize="19dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tNote"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingBottom="3dp"-->
+                    <!--android:gravity="left"-->
+                    <!--android:paddingVertical="3dp"-->
+                    <!--android:text="Note"-->
+                    <!--android:textColor="?attr/textColorPrimary"-->
+                    <!--android:textSize="14dp" />-->
+            <!--</LinearLayout>-->
+
+            <!--</ScrollView>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="12dp">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:padding="6dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_add"
+            android:tint="?attr/textColorPrimary"
+            app:backgroundTint="?attr/colorAccent"
+            app:fabSize="normal" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabReturnToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_calendar"
+            android:tint="?attr/textColorPrimary"
+            app:backgroundTint="?attr/colorAccent"
+            app:fabSize="normal" />
+    </RelativeLayout>
+
+
+</LinearLayout>

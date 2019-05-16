@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorBackground"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingBottom="12dp"
+    android:paddingTop="14dp"
+    tools:context="com.akhilsukh01.mvtimes.FinalCalc">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="You need a"
+                    android:textColor="?attr/textColorPrimary"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/gradeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 68.4%"
+                    android:textAlignment="center"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="50sp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="on the final"
+                    android:textColor="?attr/textColorPrimary"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/spacer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="?attr/textColorPrimary"
+                    android:text="Your current grade is"
+                    android:textAlignment="center"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/gradeCurrent"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:hint="92%"
+                    android:textColor="?attr/colorAccent"
+                    android:textColorHint="@color/tipColor"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="12dp"
+                    android:text="You want (at least) a"
+                    android:textColor="?attr/textColorPrimary"
+                    android:textSize="14sp"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/gradeNeeded"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:hint="90%"
+                    android:textColor="?attr/colorAccent"
+                    android:textColorHint="@color/tipColor"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textColor="?attr/textColorPrimary"
+                    android:textColorHint="?attr/colorAccent"
+                    android:text="Your final is worth"
+                    android:textSize="14sp"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/finalWeight"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:hint="10%"
+                    android:textColor="?attr/colorAccent"
+                    android:textColorHint="@color/tipColor"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/calc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?attr/rectangleButton"
+                    android:onClick="main"
+                    android:text="Determine what I need on the Final"
+                    android:textColor="?attr/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:textSize="18sp"
+                    android:textColor="?attr/textColorPrimary"
+                    android:text="Good luck for your finals"
+                    android:textAlignment="center" />
+</LinearLayout>
+
